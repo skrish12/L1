@@ -1,0 +1,365 @@
+
+
+Q1
+
+ 
+MAC address work at which layer?
+Single Choice - Select one correct answer from the options list.
+Transport Layer
+Datalink layer
+Application layer
+Physical layer
+Q2
+
+ 
+What do you call data that includes the Layer 4 protocol header and data given to Layer 4 by the upper layers not including any headers and trailers from Layers 1 to 3?
+Single Choice - Select one correct answer from the options list.
+frame
+data
+Segment
+Packet
+Q3
+
+ 
+In what modes can you execute the command show mac-address-table?
+Single Choice - Select one correct answer from the options list.
+User mode
+Enable mode
+. Global configuration mode
+Setup mode
+Q4
+
+ 
+Which of the following protocols allows a client PC to request assignment of an IP address as well as learn its default gateway?
+Single Choice - Select one correct answer from the options list.
+ARP
+RARP
+DNS
+DHCP
+Q5
+
+ 
+Which of the following is the Protocol Data Unit(PDU) in data link layer?
+Single Choice - Select one correct answer from the options list.
+Data
+Packet
+Segment
+Frame
+Q6
+
+ 
+Which of the following OSI layers is used to determine the best path to a network?
+Single Choice - Select one correct answer from the options list.
+Data Link
+Physical
+Network
+Transport
+Q7
+
+ 
+Which of the following is true about the cabling of a typical modern Ethernet LAN?
+Single Choice - Select one correct answer from the options list.
+Connect each device in series using coaxial cabling
+Connect each device in series using UTP cabling
+Connect each device to a centralized LAN Router using UTP cabling
+Connect each device to a centralized LAN switch using UTP cabling
+Q8
+
+ 
+You have a Class C network, and you need ten subnets. You wish to have as many addresses available for hosts as possible. Which one of the following subnet masks should you use?
+Single Choice - Select one correct answer from the options list.
+255.255.255.192
+255.255.255.224
+255.255.255.240
+255.255.255.248
+Q9
+
+ 
+What is size of a MAC Address?
+Single Choice - Select one correct answer from the options list.
+16 bits
+32 bits
+48 bits
+128 bits
+Q10
+
+ 
+Which of the following does a router normally use when making a decision about routing TCP/IP Packets?
+Single Choice - Select one correct answer from the options list.
+Destination MAC address
+Source MAC address
+Destination IP address
+Source IP address
+Q11
+
+ 
+You are an administrator of a switched network and your goal is to reduce some of the administrative overhead on your network. You plan on achieving this by configuring a new VLAN for each department in your network. However, you need to share the VLAN information across numerous switches throughout your network. Which of the following would allow you accomplish this?
+Single Choice - Select one correct answer from the options list.
+STC
+GVRP
+SNMP
+VTP
+Q12
+
+ 
+Which of the following is the decimal and hexadecimal equivalent of this binary number 10101010?
+Single Choice - Select one correct answer from the options list.
+Decimal=160 hexidecimal=00
+Decimal=170 hexidecimal=AA
+Decimal=180 hexidecimal=BB
+Decimal=190 hexidecinal=CC
+Q13
+
+ 
+Which of the following statements are true regarding the command ip route 172.16.4.0 255.255.255.0 192.168.4.2?
+Single Choice - Select one correct answer from the options list.
+The command is used to establish a static route.
+The command is used to configure the default route.
+The subnet mask for the source address is 255.255.255.0.
+The command is used to establish a stub network.
+Q14
+
+ 
+Imagine that you have configured the enable secret command followed by the enable password command from the console. You log out of the switch and log back in at the console. Which command defines the password that you had to enter to access privileged mode?
+Single Choice - Select one correct answer from the options list.
+enable password
+enable secret
+Neither
+The password command if it’s configured
+Q15
+
+ 
+In the following command what does the 150 at the end of the command mean? 
+Router(config)#ip route 172.16.3.0 255.255.255.0 192.168.2.4 150 
+Single Choice - Select one correct answer from the options list.
+Metric
+Administrative Distance
+Hop Count
+Cost
+Q16
+
+ 
+Each Class C network contains how many IP addresses that can be assigned to hosts?
+Single Choice - Select one correct answer from the options list.
+254
+256
+32768
+. 32766
+Q17
+
+ 
+Which of the following protocols allows a client PC to discover the IP address of another computer based on that other computer’s name?
+Single Choice - Select one correct answer from the options list.
+ARP
+RARP
+DNS
+DHCP
+Q18
+
+ 
+Difference about basic characteristics of switches and hubs for network Connectivity?Which is true?
+Single Choice - Select one correct answer from the options list.
+Switches do not forward broadcasts
+Hubs can filter frames
+Using hubs can increase the amount of bandwidth available to hosts
+Switches increase the number of collision domains in the network.
+Q19
+
+ 
+Which of the following shows the equivalent of subnet mask 255.255.248.0 but in prefix notation?
+Single Choice - Select one correct answer from the options list.
+/20
+/24
+/23
+/21
+Q20
+
+ 
+Which OSI layer defines the standards for cabling and connectors?
+Single Choice - Select one correct answer from the options list.
+Layer 1
+Layer 2
+Layer 3
+Layer 4
+Q21
+
+ 
+When powering up a router which of the following types of memory normally stores the start-up configuration?
+Single Choice - Select one correct answer from the options list.
+RAM
+ROM
+FLASH
+NVRAM
+Q22
+
+ 
+An administrator want to automate all of the following functions for hosts on a network: IP configuration, IP addresses, subnet masks, default gateways, and DNS server information?
+Single Choice - Select one correct answer from the options list.
+CDP
+SNMP
+DHCP
+ARP
+Q23
+
+ 
+A network administrator views the output from the show ip route command. A network that is advertised by both RIP and EIGRP appears in the routing table flagged as an EIGRP route. Why is the RIP route to this network not used in the routing table?,
+Single Choice - Select one correct answer from the options list.
+EIGRP has a faster update timer
+EIGRP has a lower administrative distance.
+RIP has a higher metric value for that route.
+The EIGRP route has fewer hops.
+Q24
+
+ 
+Which one of the following is true about User Datagram Protocol?
+Single Choice - Select one correct answer from the options list.
+It is reliable and acknowledged
+It is unreliable and acknowledged
+It is reliable and unacknowledged
+It is unreliable and unacknowledged.
+Q25
+
+ 
+Which of the following commands will allow you to set your Telnet password on a Cisco router?
+Single Choice - Select one correct answer from the options list.
+line telnet 0 4
+line aux 0 4
+line vty 0 4
+line con 0
+Q26
+
+ 
+IGRP is Cisco propriety routing protocols that as all routing protocols use metrics to determine the best path to a destination. Which are the default metrics for this routing protocol?
+Single Choice - Select one correct answer from the options list.
+Maximum Transmission Unit and Delay
+delay and bandwidth
+Bandwidth and MTU
+Reliability and Delay
+Q27
+
+ 
+What command will display the forward/filter table?
+Single Choice - Select one correct answer from the options list.
+show mac filter
+show run
+show mac address-table
+show mac filter-table
+Q28
+
+ 
+What is the range of values for the first octet for Class A IP networks?
+Single Choice - Select one correct answer from the options list.
+128 to 191
+0 to 125
+1 to 129
+1 to 126
+Q29
+
+ 
+You have an IP host address of 201.222.5.121 and a subnet mask of 255.255.255.248. What is the broadcast address?
+Single Choice - Select one correct answer from the options list.
+201.222.5.127
+201.222.5.120
+201.222.5.121
+201.222.5.122
+Q30
+
+ 
+A network administrator needs to verify that switch interface 0/5 has been assigned to the Sales VLAN. Which command will accomplish this task?
+Single Choice - Select one correct answer from the options list.
+Show vlan
+Show mac-address-table
+Show vtp status
+show spanning-tree
+Q31
+
+ 
+You are unable to telnet to a router at address 203.125.12.1 from a workstation with the IP address 203.125.12.23. You suspect that there is a problem with your protocol stack. Which of the following actions is most likely to confirm your diagnosis?
+Single Choice - Select one correct answer from the options list.
+ping 127.0.0.0
+ping 203.125.12.1
+telnet 127.0.0.1
+ping 127.0.0.1
+Q32
+
+ 
+When using RIP routing updates are broadcast every ____ seconds?
+Single Choice - Select one correct answer from the options list.
+30
+10
+60
+90
+Q33
+
+ 
+On a point-to-point WAN link using a leased line between two routers located hundreds of miles apart what devices are considered to be the DTE devices?
+Single Choice - Select one correct answer from the options list.
+Routers
+CSU/DSU
+The central office equipment
+chip on the processor of each router
+Q34
+
+ 
+Manually added routes will be reflecting as ____ routes in the routing table?
+Single Choice - Select one correct answer from the options list.
+static
+dynamic
+hierarchical
+non static
+Q35
+
+ 
+Router operate at which layer?
+Single Choice - Select one correct answer from the options list.
+Layer 3 (Network Layer)
+Layer 4 (Transport Layer)
+Layer 7 (Application layer)
+Layer 1(Physical layer)
+Q36
+
+ 
+One company has 25 computers and decides to connect the network to the Internet.They would like for all of the computers to have access to the Internet at the same time, but they only has four usable publicly routable IP addresses.What should be configured on the router so that all computers can connect to theInternet simultaneously?
+Single Choice - Select one correct answer from the options list.
+Static NAT
+Dynamic NAT
+Static NAT with ACLs
+Dynamic NAT with overload
+Q37
+
+ 
+What flavor of Network Address Translation can be used to have one IP address allow many users to connect to the global Internet?
+Single Choice - Select one correct answer from the options list.
+NAT
+Static
+Dynamic
+PAT
+Q38
+
+ 
+The process of a web server adding a TCP header to a web page followed by adding an IP header and then a data link header and trailer is an example of what?
+Single Choice - Select one correct answer from the options list.
+Data encapsulation
+Same-layer interaction
+The OSI model
+All of these answers are correct
+Q39
+
+ 
+If mask 255.255.255.128 were used with a Class B network how many subnets could exist with how many hosts per subnet respectively?
+Single Choice - Select one correct answer from the options list.
+512 and 126
+254 and 254
+62 and 1022
+1022 and 62
+Q40
+
+ 
+Repeater work at which layer?
+Single Choice - Select one correct answer from the options list.
+Transport Layer
+Datalink layer
+Network Layer
+Physical layer
+Network Essentials
+

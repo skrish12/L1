@@ -1,0 +1,411 @@
+
+Q1:What configuration file is associated with the First Process? The configuration file associated with the First Process is
+   Single Choice - Select one correct answer from the options list.
+ 1./etc/init
+ 2./etc/boot/grub.cfg.
+ 3./etc/inittab.
+ 4./etc/rc.d/init
+ Ans:4
+Q2:What command lists all installed RPMs? What about the RPMs installed when you first installed the local system?
+   Single Choice - Select one correct answer from the options list.
+ 1.rpm –qi
+ 2.rpm –qa
+ 3.rpm –ivh
+ 4.none of the above
+ Ans:2
+Q3:Which of the following file contain your CPU infomation?
+   Single Choice - Select one correct answer from the options list.
+ 1./proc/cpustats
+ 2./proc/cpuitems
+ 3./proc/cpuinfo(ans)
+ 4.None of these
+Q4
+
+ 
+How many primary partitions can exist on one drive?
+Single Choice - Select one correct answer from the options list.
+16
+4(ans)
+2
+1
+None of the above
+Q5
+
+ 
+Which file is used to configure which filesystems are mounted?
+Single Choice - Select one correct answer from the options list.
+
+ /etc/mount.sys
+/etc/filesys
+ /etc/sysconfig
+/etc/fstab(Ans)
+None of the above
+Q6
+
+ 
+Maximum how long can a Linux filename be?
+Single Choice - Select one correct answer from the options list.
+128 bytes
+255 bytes(ANS)
+32 bytes
+64 bytes
+Q7
+
+ 
+Where are iptables rules stored?
+Single Choice - Select one correct answer from the options list.
+in /etc/sysconfig/iptables-data.
+in /etc/sysconfig/iptables-scripts
+in /etc/sysconfig/iptables.
+in /etc/sysconfig/iptables-save(ANS)
+Q8
+
+ 
+What is the primary advantage of a journaling filesystem such as ext3?
+Single Choice - Select one correct answer from the options list.
+
+faster data recovery if power is suddenly cut.(Ans)
+faster data recovery harddisk crash
+faster data recovery if partition delete
+None of the above.
+
+Q9
+
+)Which of the following command kill all the process including shell ?
+Single Choice - Select one correct answer from the options list.
+
+kill kill 0(ANS)
+kill -9 kill 0
+kill -s kill 0
+ Both B and C
+Q10
+
+ 
+What command saves iptables rules?
+Single Choice - Select one correct answer from the options list.
+
+ Iptables-save(ANS)
+Iptables-safe
+ Save-Iptables
+ None of the above
+
+Q11
+
+ 
+The command chmod 761 letter is equivalent to
+Single Choice - Select one correct answer from the options list.
+
+chmod 4=7, g = 6, o = 1 letter
+chmod a = 761 letter
+chmod u = rwx, g = rw, o = x letter(ANS)
+chmod 167 letter
+None of the above
+Q12
+
+ 
+In which tcp_wrappers file can you specify to allow all connections from all hosts?
+Single Choice - Select one correct answer from the options list.
+
+/etc/hosts.allow(ANS)
+/etc/hosts.deny
+/etc/hosts
+/etc/tcp.conf
+None of the above
+Q13
+
+ 
+What command is used to display the characteristics of a process?
+Single Choice - Select one correct answer from the options list.
+
+au
+ps(ANS)
+du
+pid
+None of the above
+
+Q14
+
+In which directory can you store system user default files used for creating user directories?
+Single Choice - Select one correct answer from the options list.
+
+/usr/tmp
+/etc/default
+/etc/skel(ANS)
+/etc/users
+None of the above
+Q15
+
+ 
+Which command is used to print the login shell of an user? 
+Single Choice - Select one correct answer from the options list.
+
+echo $SHELL(ANS)
+ echo $LOGIN
+ echo $LSHELL
+  None of the Above
+
+Q16
+
+ 
+What command is used to add printing jobs to the queue?
+Single Choice - Select one correct answer from the options list.
+
+lpd
+lpr(ans)
+lpq
+lpc
+None of the above
+Q17
+
+ 
+What directory contains most Red Hat system configuration files?
+Single Choice - Select one correct answer from the options list.
+
+/etc/sysconfig
+/etc/boot
+/etc/inittab.
+/var/log/messages
+Q18
+
+ 
+What happens to a service if you allow the service in /etc/hosts.allow and prohibit it in /etc/ hosts.deny?
+Single Choice - Select one correct answer from the options list.
+
+the service is allowed.
+the service is denied.
+the service is disable.
+the service is enable
+Q19
+
+ 
+What yum command installs the latest Linux kernel?
+Single Choice - Select one correct answer from the options list.
+# yum install kernel*
+# yum install kernel-ivh
+# yum install k*
+# yum –ivh  kernel
+Q20
+
+ 
+After creating a swap partition, what command activates it
+
+swapon partitionname(Ans)
+mkswap partitionname
+mkfs.swap partitionname
+none of the above
+
+
+Q21
+
+ 
+_____ enables us to implement multiple password/lockout policies within the same domain 
+due to varying requirements across different departments in a company. 
+
+
+subpolicy
+subdomainpolicy
+childpolicy
+fine-grained policy(Ans)
+Q22
+
+ 
+You are asked to setup a website in Windows Server. 
+Which role needs to be added for implementing the same?      
+
+
+IIS   (Ans)
+Exchange
+Page
+Server
+Q23
+
+ 
+_____ is a tool that can be used to configure service startup.      
+
+
+msconfig (Ans)
+ipconfig
+startup-config
+running-config
+Q24
+
+ 
+________ is an AD Object that represents a well-connected portion of your network. 
+
+
+subnet
+site (Ans)
+domain
+tree
+
+
+Q25
+
+______ allow access between multiple domains and/or forests either within a single forest or 
+across multiple enterprise networks.   
+ 
+
+ DNS
+Trust Relationship
+DHCP
+ WDS
+
+
+Q26
+
+Which of the following represents the default sequences in which GPOs linked to 
+different AD DS containers are applied?
+
+Single Choice - Select one correct answer from the options list.
+Site (S), Domain (D), organizational unit (OU), local (L)
+D, S, OU, L
+L, S, D, OU
+L, D, S, OU
+Q27
+
+ 
+You are asked to setup a domain controller at an unsecured branch location of your company.
+Which of the following needs to be the best solution for implementing the same?     
+
+Single Choice - Select one correct answer from the options list.
+RWDC
+ServerCore
+RODC
+DHCP
+Q28
+
+ 
+What Microsoft tool can be used to remotely install Windows images onto computers?     
+
+Single Choice - Select one correct answer from the options list.
+Ghost
+WDS
+WSUS(Ans)
+DNS
+Q29
+
+ 
+You are asked to setup a local server from which the clients can update the Windows OS to save the bandwidh 
+and being more efficient. Which of the following solution you will choose to implement the same?  
+
+Single Choice - Select one correct answer from the options list.
+WSUS
+wbadmin
+Application Server
+FileServer
+Q30
+
+ 
+Which of the following components of GPOs enables you to configure the settings that 
+influence the appearance of the desktop environment, 
+including many of the actions users are permitted to perform?        
+
+Single Choice - Select one correct answer from the options list.
+Preferences
+Software Settings
+Windows Settings
+Administrative Templates
+Q31
+
+ 
+Which of the following is not a domain wide operations master role?     
+
+Single Choice - Select one correct answer from the options list.
+Domain Naming Master
+RID Master
+PDC Emulator
+Infrastructure Master
+Q32
+
+ 
+______ provides single signon.   
+
+Single Choice - Select one correct answer from the options list.
+DNS
+Kerberos
+DHCP
+SSH
+Q33
+
+ 
+______ is responsible for updating object references in its domain that point to the object in another domain.     
+
+Single Choice - Select one correct answer from the options list.
+Domain Naming Master
+RID Master
+PDC Emulator
+Infrastructure Master
+Q34
+
+ 
+______ can be used to restrict the ability of users to create computers.
+
+Single Choice - Select one correct answer from the options list.
+ms-DS-MachineAccountQuota
+ms-DS-ComputerAccountQuota
+ms-AD-MachineAccountQuota
+ms-DS-MachineAddQuota
+Q35
+
+ 
+Which of the following is not a forestwide operations master role?           
+Single Choice - Select one correct answer from the options list.
+Domain Naming Master
+Infrastructure Master
+Schema Master
+None of the Above
+Q36
+
+ 
+Which of the following objects are used to create the logical structure within Active Directory domains?
+      
+
+Single Choice - Select one correct answer from the options list.
+Users
+Sites
+Organizational units
+Trees
+Q37
+
+ 
+_________ shares a contiguous namespace. 
+
+Single Choice - Select one correct answer from the options list.
+Forest
+Subnet
+Tree
+All the above
+None of the Above
+Q38
+
+ 
+_____ is the identity store in a stand-alone workgroup Windows System.         
+
+Single Choice - Select one correct answer from the options list.
+SAM
+NTDS.dit
+passwd
+shadow
+Q39
+
+ 
+_______  receives preferential replication of password changes that are performed by other 
+domain controllers in the domain, and it is the source for the latest  password information 
+whenever a logon attempt fails as a result of a bad password.           
+
+Single Choice - Select one correct answer from the options list.
+Domain Naming Master
+RID Master
+PDC Emulator
+Infrastructure Master
+
+Q40 
+Which tool do you use in Windows Server 2008 for creating GPOs and 
+performing various management activities on them? 
+
+Single Choice - Select one correct answer from the options list.
+Group Policy Management Console
+Group Policy Management Editor
+Active Directory Users and Computers
+Active Directory Administrative Center
+
